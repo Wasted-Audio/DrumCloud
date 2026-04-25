@@ -4,13 +4,13 @@
 
 // dr_libs (implementation only here)
 #define DR_WAV_IMPLEMENTATION
-#include "thirdparty/dr_libs/dr_wav.h"
+#include "dr_wav.h"
 
 #define DR_FLAC_IMPLEMENTATION
-#include "thirdparty/dr_libs/dr_flac.h"
+#include "dr_flac.h"
 
 #define DR_MP3_IMPLEMENTATION
-#include "thirdparty/dr_libs/dr_mp3.h"
+#include "dr_mp3.h"
 
 static std::string lowerExt(const char* path)
 {
